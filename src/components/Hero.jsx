@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='bg-emerald-100 py-24'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
-        <article className='align-element'>
+        <article className='md:mx-auto md:pl-8'>
           <h1 className='text-6xl font-bold tracking-wider md:text-7xl'>
             I'm Gayathri
           </h1>
@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
         </article>
         <article className='hidden md:block'>
-          <img src={heroImg} className='h-120 lg:h-96' />
+          <img src={heroImg} className='h-80 lg:h-96' />
         </article>
       </div>
     </div>

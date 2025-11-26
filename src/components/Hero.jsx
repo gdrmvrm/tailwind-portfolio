@@ -3,10 +3,10 @@ import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className='bg-emerald-100 py-24'>
+    <div className='bg-emerald-100 py-10'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article className='md:mx-auto md:pl-8'>
-          <h1 className='text-6xl font-bold tracking-wider md:text-7xl'>
+          <h1 className='text-6xl font-bold tracking-wider lg:text-7xl'>
             I'm Gayathri
           </h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>

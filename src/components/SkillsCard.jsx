@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SkillsCard = ({ id, title, icon, text }) => {
+const SkillsCard = ({ title, icon, text }) => {
   return (
     <article>
       <span className='h-16 w-16'>{icon}</span>

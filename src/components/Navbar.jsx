@@ -1,15 +1,17 @@
 import React from 'react';
 import { links } from '../data';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
     <nav className='bg-emerald-100 '>
-      <div className='align-element py-4 flex flex-col justify-between sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
-        <h2 className='text-3xl font-bold'>
+      <div className='align-element py-10 flex flex-col justify-between sm:flex-row sm:gap-x-16 sm:items-center sm:py-10'>
+        <img src={logo} alt='gdrmvrm logo' className='w-42' />
+        {/* <h2 className='text-3xl font-bold'>
           Web
           <span className='text-emerald-600'>Dev</span>
-        </h2>
-        <div className='flex gap-x-3.5'>
+        </h2> */}
+        <div className='flex gap-x-3.5 mt-3 sm:mt-0'>
           {links.map((link) => {
             const { id, href, text } = link;
             return (
